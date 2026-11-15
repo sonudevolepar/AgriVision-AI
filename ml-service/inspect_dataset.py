@@ -9,6 +9,7 @@ DATASET_DIR = (
     / "Plant_leave_diseases_dataset_without_augmentation"
 )
 
+# ftydty
 total_images = 0
 total_classes = 0
 
