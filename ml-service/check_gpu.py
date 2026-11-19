@@ -1,4 +1,4 @@
-
+# hello chech gpu.py
 import torch
 import torchvision
 
