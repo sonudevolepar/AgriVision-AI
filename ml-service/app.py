@@ -152,7 +152,7 @@ async def predict_disease(file: UploadFile = File(...)):
         confidence.item() * 100,
         2
     )
-
+    # return device concept 
     return {
         "success": True,
         "predicted_disease": disease_name,
