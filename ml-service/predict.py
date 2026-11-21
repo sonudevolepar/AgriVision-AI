@@ -115,7 +115,7 @@ def predict_image(image_path):
     ]
 
     confidence_score = confidence.item() * 100
-
+    # print system and or printing 
     print("\n========== AGRIVISION AI ==========")
 
     print("Device:", DEVICE)
